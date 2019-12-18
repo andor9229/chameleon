@@ -1,0 +1,53 @@
+{
+    "StatistichePartner": {
+        "tabs": [
+            "Dettaglio Lavorazione Leads",
+            "Dettaglio Contratti"
+        ],
+        "divideBy": "partner",
+        "channelFilter": true,
+        "search": true,
+        "columns": {
+            "Dettaglio Lavorazione Leads": {
+                "Id Operatore": {
+                    "name": "first_outcome_id_operator"
+                },
+                "Leads Gestitie": {
+                    "name": "leads"
+                },
+                "Clienti Attivati": {
+                    "name": "active_clients"
+                },
+                "Cr Clienti Attivati": {
+                    "name": "cr_active_clients"
+                }
+            },
+            "Dettaglio Contratti": {
+                "Id Operatore": {
+                    "name": "first_outcome_id_operator"
+                },
+                "Switch": {
+                    "name": "switch"
+                }
+            }
+        }
+    },
+    "CampaignStatistics": {
+        "divideBy": "Partner",
+        "channelFilter": true,
+        "search": true,
+        "columns": {
+            "Leads Gestitie": {
+                "name": "leads"
+            },
+            "Clienti Attivati": {
+                "name": "active_clients"
+            },
+            "Cr Clienti Attivati": {
+                "name": "cr_active_clients",
+                "value": "leads + active_clients"
+            }
+        }
+    }
+}
+

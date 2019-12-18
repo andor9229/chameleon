@@ -1,0 +1,16 @@
+.card {
+    @apply .shadow-lg .w-1/5 .mx-2 .bg-transparent;
+}
+
+.card .card-header {
+    @apply .rounded-lg .text-white .text-center .p-10;
+}
+
+.card .card-body {
+    @apply .bg-white .rounded-lg .border .py-5 .rounded-t-none .-mt-3 .px-5 .flex .justify-around .text-center .leading-none;
+}
+
+.card .card-divider {
+    @apply .bg-gray-600;
+    width: 1px;
+}

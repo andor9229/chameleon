@@ -1,0 +1,16 @@
+.label {
+    @apply .uppercase .block .text-gray-700 .text-sm .font-bold .mb-2;
+}
+
+.input {
+    @apply .border .shadow .rounded .bg-gray-200 .w-full .p-2;
+
+    &:focus {
+        @apply .outline-none .bg-white;
+    }
+}
+
+.error {
+    @apply .text-red-500 .text-xs .italic .mt-1 .mb-6 .text-right;
+}
+

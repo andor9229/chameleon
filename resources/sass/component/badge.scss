@@ -1,0 +1,47 @@
+.badge {
+    @apply .px-2 .py-1 .text-white .font-bold .text-sm .rounded-full;
+}
+
+.badge-green {
+    @apply .bg-green-500;
+}
+
+.badge-red {
+    @apply .bg-red-500;
+}
+
+.badge-orange {
+    @apply .bg-orange-500;
+}
+.badge-yellow {
+    @apply .bg-yellow-500;
+}
+
+.badge-blue {
+    @apply .bg-blue-500;
+}
+
+.badge-teal {
+    @apply .bg-teal-500;
+}
+
+.badge-gray {
+    @apply .bg-gray-500;
+}
+
+//badges classes for source access logs actions
+.badge-completed {
+    @apply .badge-green .uppercase;
+}
+
+.badge-accessed {
+    @apply .badge-yellow .uppercase;
+}
+
+.badge-sended {
+    @apply .badge-orange .uppercase;
+}
+
+.badge-error {
+    @apply .badge-red .uppercase;
+}

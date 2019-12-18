@@ -1,0 +1,52 @@
+<?php
+
+return [
+    'bridges' => 'Integrazioni',
+    'bridge' => 'Integrazione',
+    'bridge.name' => 'Nome',
+    'bridge.description' => 'Descrizione',
+    'bridge.active' => 'Attivo',
+    'bridge.type' => 'Tipologia',
+    'bridge.behavior' => 'Comportamento',
+
+    'log.activities' => 'Logs',
+    'log.activity' => 'Log',
+    'log.activity.created_at' => 'Creato il',
+    'log.activity.description' => 'Descrizione',
+    'log.activity.actor' => 'Eseguito da',
+    'log.activity.resource' => 'Risorsa',
+
+    'log.source-access-logs' => 'Source Access Logs',
+    'log.source-access-log' => 'Source Acccess Log',
+    'log.source-access-log.action' => 'Azione',
+    'log.source-access-log.state' => 'Stato',
+    'log.source-access-log.response' => 'Risposta',
+    'log.source-access-log.data_received' => 'Dati Ricevuti',
+    'log.source-access-log.user_agent' => 'User Agent',
+    'log.source-access-log.browser' => 'Browser',
+    'log.source-access-log.browser_version' => 'Versione Browser',
+    'log.source-access-log.platform' => 'Piattaforma',
+    'log.source-access-log.platform_version' => 'Versione Piattaforma',
+    'log.source-access-log.ip' => 'IP',
+    'log.source-access-log.referer' => 'Referer',
+    'log.source-access-log.invoked_at' => 'Invocato Alle',
+    'log.source-access-log.sended_at' => 'Inviato Alle',
+    'log.source-access-log.responsed_at' => 'Risposta Ricevuta Alle',
+
+    'organizations' => 'Organizzazioni',
+    'organization' => 'Organizzazione',
+    'organization.name' => 'Nome',
+    'organization.description' => 'Descrizione',
+    'organization.members' => 'Condiviso Con',
+
+    'sources' => 'Sorgenti',
+    'source' => 'Sorgente',
+    'source.name' => 'Nome',
+    'source.description' => 'Descrizione',
+    'source.active' => 'Attivo',
+    'source.type' => 'Tipologia',
+    'source.behavior' => 'Comportamento',
+
+    'user.name' => 'Nome e Cognome',
+    'user.email' => 'Email',
+];
